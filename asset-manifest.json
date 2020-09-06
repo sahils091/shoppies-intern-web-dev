@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.1ab31be1.chunk.css",
-    "main.js": "/my-app/static/js/main.94e0de49.chunk.js",
-    "main.js.map": "/my-app/static/js/main.94e0de49.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.ce455cc8.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.ce455cc8.js.map",
-    "static/js/2.78f31a07.chunk.js": "/my-app/static/js/2.78f31a07.chunk.js",
-    "static/js/2.78f31a07.chunk.js.map": "/my-app/static/js/2.78f31a07.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "precache-manifest.77e5c52c5d2f56f502b57401d1ee0b76.js": "/my-app/precache-manifest.77e5c52c5d2f56f502b57401d1ee0b76.js",
-    "service-worker.js": "/my-app/service-worker.js",
-    "static/css/main.1ab31be1.chunk.css.map": "/my-app/static/css/main.1ab31be1.chunk.css.map",
-    "static/js/2.78f31a07.chunk.js.LICENSE.txt": "/my-app/static/js/2.78f31a07.chunk.js.LICENSE.txt",
-    "static/media/giphy.gif": "/my-app/static/media/giphy.b0ac73ff.gif",
-    "static/media/logo.png": "/my-app/static/media/logo.ae25aaa3.png"
+    "main.css": "/shoppies-intern-web-dev/static/css/main.1ab31be1.chunk.css",
+    "main.js": "/shoppies-intern-web-dev/static/js/main.94e0de49.chunk.js",
+    "main.js.map": "/shoppies-intern-web-dev/static/js/main.94e0de49.chunk.js.map",
+    "runtime-main.js": "/shoppies-intern-web-dev/static/js/runtime-main.18a1edea.js",
+    "runtime-main.js.map": "/shoppies-intern-web-dev/static/js/runtime-main.18a1edea.js.map",
+    "static/js/2.78f31a07.chunk.js": "/shoppies-intern-web-dev/static/js/2.78f31a07.chunk.js",
+    "static/js/2.78f31a07.chunk.js.map": "/shoppies-intern-web-dev/static/js/2.78f31a07.chunk.js.map",
+    "index.html": "/shoppies-intern-web-dev/index.html",
+    "precache-manifest.46a35c4cacfaeed1aa818ce8e02fbea5.js": "/shoppies-intern-web-dev/precache-manifest.46a35c4cacfaeed1aa818ce8e02fbea5.js",
+    "service-worker.js": "/shoppies-intern-web-dev/service-worker.js",
+    "static/css/main.1ab31be1.chunk.css.map": "/shoppies-intern-web-dev/static/css/main.1ab31be1.chunk.css.map",
+    "static/js/2.78f31a07.chunk.js.LICENSE.txt": "/shoppies-intern-web-dev/static/js/2.78f31a07.chunk.js.LICENSE.txt",
+    "static/media/giphy.gif": "/shoppies-intern-web-dev/static/media/giphy.b0ac73ff.gif",
+    "static/media/logo.png": "/shoppies-intern-web-dev/static/media/logo.ae25aaa3.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ce455cc8.js",
+    "static/js/runtime-main.18a1edea.js",
     "static/js/2.78f31a07.chunk.js",
     "static/css/main.1ab31be1.chunk.css",
     "static/js/main.94e0de49.chunk.js"
