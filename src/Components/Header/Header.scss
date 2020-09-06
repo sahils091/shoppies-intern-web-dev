@@ -1,0 +1,42 @@
+@import "../../partials/variables";
+@import "../../partials/mixins";
+
+
+.head{
+    display: flex;
+    box-shadow: 2px 4px 1px 1px rgba(0,0,0,0.5);
+    justify-content: space-between;
+    background-color: $header-bg;
+
+    &__logo{
+        height: 7rem;
+        width: 11rem;
+    }
+    &__text-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 50%;
+
+    }
+    &__text-link, :visited, :link{
+        text-decoration: none;
+        color: $main-bg;
+        &:hover{
+            
+            border-bottom: 3px solid $out-stock-color;
+          }
+          &--active {
+            background-color: $text-color;
+            border-bottom: 3px solid $out-stock-color;
+
+          }
+
+
+    }
+    
+
+
+
+
+}
