@@ -1,42 +1,49 @@
 import React, { Component } from "react";
 import "./NominatedMovie.scss";
-import { Link } from 'react-router-dom';
-import FileSaver, {saveAs} from 'file-saver';
-
-
+import ReactTooltip from "react-tooltip";
+import Axios from "axios";
 
 class NominatedMovie extends Component {
-
+  handleHover = () => {
+    Axios.get(
+      "http://www.omdbapi.com/?apikey=2e171a45&s=&t=" +
+        this.props.nomination.Title
+    ).then((res) => {
+      return <div>{res.data}</div>;
+    });
+  };
   render() {
- 
-    if (!this.props.nomination)   return null
     return (
       <section className="nominated">
-          {this.props.nomination.map((data) => {
-            return (
-              <form 
-              className="nominated__container"
-               onSubmit={this.props.deleteHandler}
-               key={data.Title}
-               >
+        {this.props.nomination.map((data) => {
+          return (
+            <form
+              data-tip={data.Title}
+              className="nominated__container  animate__animated animate__fadeIn  "
+              onSubmit={this.props.deleteHandler}
+              key={data.Title}
+            >
               <div className="nominated__poster--container">
-                  <img
-                    src={data.Poster}
-                    className="nominated__poster"
-                    alt={data.Title}
-                  />
-                </div>
+                <img
+                  src={data.Poster}
+                  className="nominated__poster"
+                  alt={data.Title}
+                />
+              </div>
 
-                <div className="nominated__blurb">
-                  <h3 className="nominated__blurb-text">Title : {data.Title}</h3>
-                  <h4 className="nominated__blurb-text">Release Year: {data.Year}</h4>
-                </div>
-                <button className="nominated__btn" type="submit">Delete</button>
-              </form>
-            
-
-            );
-          })}
+              <div className="nominated__blurb">
+                <h3 className="nominated__blurb-text">Title : {data.Title}</h3>
+                <h4 className="nominated__blurb-text">
+                  Release Year: {data.Year}
+                </h4>
+              </div>
+              <button className="nominated__btn" type="submit">
+                Delete
+              </button>
+              <ReactTooltip />
+            </form>
+          );
+        })}
       </section>
     );
   }

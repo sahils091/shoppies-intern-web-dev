@@ -20,7 +20,6 @@ class HomePage extends Component {
   searchKey = (e) => {
     e.preventDefault();
     const keyWord = e.target.search.value;
-    console.log(keyWord);
 
     axios
       .get(" http://www.omdbapi.com/?apikey=2e171a45&s=" + keyWord)
@@ -51,44 +50,45 @@ class HomePage extends Component {
       movies: filteredList,
     });
   };
-  deleteHandler = (e, movieTitle) =>{
-      e.preventDefault();
-      console.log(movieTitle);
+  deleteHandler = (e, movieTitle) => {
+    e.preventDefault();
 
-      if(!this.state.nomMov) return;
-      nominatedArr.splice( this.state.nomMov.find(movie=>{
-          return movie.Title === movieTitle      
-      }) , 1)
-      console.log("after Splice", nominatedArr)
-      this.setState({
-          nomMov:nominatedArr
-      })
-
-  }
+    if (!this.state.nomMov) return;
+    nominatedArr.splice(
+      this.state.nomMov.find((movie) => {
+        return movie.Title === movieTitle;
+      }),
+      1
+    );
+    console.log("after Splice", nominatedArr);
+    this.setState({
+      nomMov: nominatedArr,
+    });
+  };
 
   render() {
     const { movies, nomMov } = this.state;
-    console.log("State", movies, nomMov);
     return (
-      <div >
-        <Header/>
+      <div>
+        <Header />
         <main className="main">
-        <Input searchKey={this.searchKey}/>
- 
-         <section className="main__movies">
-         <div className="main__movie-results">
-         <h2 className="main__movie-heading">Search Results</h2>
-          <MovieResults clickHandler={this.clickHandler} data={movies} />
-         </div>
-  
+          <Input searchKey={this.searchKey} />
+
+          <section className="main__movies">
+            <div className="main__movie-results">
+              <h2 className="main__movie-heading">Search Results</h2>
+              <MovieResults clickHandler={this.clickHandler} data={movies} />
+            </div>
+
             <div className="main__movie-nominated">
-             <h2 className="main__movie-heading">Nominated Movies</h2>
-          <NominatedMovie nomination={nomMov} deleteHandler={this.deleteHandler} />
-        </div>
-        
-         </section>
+              <h2 className="main__movie-heading">Nominated Movies</h2>
+              <NominatedMovie
+                nomination={nomMov}
+                deleteHandler={this.deleteHandler}
+              />
+            </div>
+          </section>
         </main>
-       
       </div>
     );
   }
