@@ -18,6 +18,10 @@
     &:hover {
       transform: scale(1.2);
     }
+    @include tablet {
+      height: 13rem;
+      width: 11rem;
+    }
   }
 
   &__blurb-text {

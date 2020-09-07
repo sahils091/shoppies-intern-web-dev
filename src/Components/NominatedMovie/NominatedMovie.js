@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./NominatedMovie.scss";
-import ReactTooltip from "react-tooltip";
 import Axios from "axios";
 
 class NominatedMovie extends Component {
@@ -18,7 +17,6 @@ class NominatedMovie extends Component {
         {this.props.nomination.map((data) => {
           return (
             <form
-              data-tip={data.Title}
               className="nominated__container  animate__animated animate__fadeIn  "
               onSubmit={this.props.deleteHandler}
               key={data.Title}
@@ -40,7 +38,6 @@ class NominatedMovie extends Component {
               <button className="nominated__btn" type="submit">
                 Delete
               </button>
-              <ReactTooltip />
             </form>
           );
         })}
