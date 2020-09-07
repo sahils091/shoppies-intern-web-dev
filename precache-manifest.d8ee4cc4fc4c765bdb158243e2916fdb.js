@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d948e1c8075b14d0485d31ade245864",
+    "revision": "330b1c8e49ba802a1ed04ab44b1f35a1",
     "url": "/shoppies-intern-web-dev/index.html"
   },
   {
-    "revision": "3d13fbe9248d87c22f02",
-    "url": "/shoppies-intern-web-dev/static/css/main.1ab31be1.chunk.css"
+    "revision": "f1d361f9accb83061235",
+    "url": "/shoppies-intern-web-dev/static/css/main.a0cd657b.chunk.css"
   },
   {
-    "revision": "90b6f2b18ea477d17020",
-    "url": "/shoppies-intern-web-dev/static/js/2.78f31a07.chunk.js"
+    "revision": "6e17ccc8652d99ac46fe",
+    "url": "/shoppies-intern-web-dev/static/js/2.cbbe0e3f.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/shoppies-intern-web-dev/static/js/2.78f31a07.chunk.js.LICENSE.txt"
+    "url": "/shoppies-intern-web-dev/static/js/2.cbbe0e3f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3d13fbe9248d87c22f02",
-    "url": "/shoppies-intern-web-dev/static/js/main.94e0de49.chunk.js"
+    "revision": "f1d361f9accb83061235",
+    "url": "/shoppies-intern-web-dev/static/js/main.36b4766d.chunk.js"
   },
   {
     "revision": "8c27346f3b439f1e9409",

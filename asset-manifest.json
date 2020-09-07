@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/shoppies-intern-web-dev/static/css/main.1ab31be1.chunk.css",
-    "main.js": "/shoppies-intern-web-dev/static/js/main.94e0de49.chunk.js",
-    "main.js.map": "/shoppies-intern-web-dev/static/js/main.94e0de49.chunk.js.map",
+    "main.css": "/shoppies-intern-web-dev/static/css/main.a0cd657b.chunk.css",
+    "main.js": "/shoppies-intern-web-dev/static/js/main.36b4766d.chunk.js",
+    "main.js.map": "/shoppies-intern-web-dev/static/js/main.36b4766d.chunk.js.map",
     "runtime-main.js": "/shoppies-intern-web-dev/static/js/runtime-main.18a1edea.js",
     "runtime-main.js.map": "/shoppies-intern-web-dev/static/js/runtime-main.18a1edea.js.map",
-    "static/js/2.78f31a07.chunk.js": "/shoppies-intern-web-dev/static/js/2.78f31a07.chunk.js",
-    "static/js/2.78f31a07.chunk.js.map": "/shoppies-intern-web-dev/static/js/2.78f31a07.chunk.js.map",
+    "static/js/2.cbbe0e3f.chunk.js": "/shoppies-intern-web-dev/static/js/2.cbbe0e3f.chunk.js",
+    "static/js/2.cbbe0e3f.chunk.js.map": "/shoppies-intern-web-dev/static/js/2.cbbe0e3f.chunk.js.map",
     "index.html": "/shoppies-intern-web-dev/index.html",
-    "precache-manifest.46a35c4cacfaeed1aa818ce8e02fbea5.js": "/shoppies-intern-web-dev/precache-manifest.46a35c4cacfaeed1aa818ce8e02fbea5.js",
+    "precache-manifest.d8ee4cc4fc4c765bdb158243e2916fdb.js": "/shoppies-intern-web-dev/precache-manifest.d8ee4cc4fc4c765bdb158243e2916fdb.js",
     "service-worker.js": "/shoppies-intern-web-dev/service-worker.js",
-    "static/css/main.1ab31be1.chunk.css.map": "/shoppies-intern-web-dev/static/css/main.1ab31be1.chunk.css.map",
-    "static/js/2.78f31a07.chunk.js.LICENSE.txt": "/shoppies-intern-web-dev/static/js/2.78f31a07.chunk.js.LICENSE.txt",
+    "static/css/main.a0cd657b.chunk.css.map": "/shoppies-intern-web-dev/static/css/main.a0cd657b.chunk.css.map",
+    "static/js/2.cbbe0e3f.chunk.js.LICENSE.txt": "/shoppies-intern-web-dev/static/js/2.cbbe0e3f.chunk.js.LICENSE.txt",
     "static/media/giphy.gif": "/shoppies-intern-web-dev/static/media/giphy.b0ac73ff.gif",
     "static/media/logo.png": "/shoppies-intern-web-dev/static/media/logo.ae25aaa3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.18a1edea.js",
-    "static/js/2.78f31a07.chunk.js",
-    "static/css/main.1ab31be1.chunk.css",
-    "static/js/main.94e0de49.chunk.js"
+    "static/js/2.cbbe0e3f.chunk.js",
+    "static/css/main.a0cd657b.chunk.css",
+    "static/js/main.36b4766d.chunk.js"
   ]
 }
