@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import "./HomePage.scss";
+import './home-page.scss'
 import Header from "../Header/Header";
 import Input from "../Input/Input";
 import MovieResults from "../MovieResults/MovieResults";
