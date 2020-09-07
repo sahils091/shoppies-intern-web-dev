@@ -1,16 +1,7 @@
 import React, { Component } from "react";
 import "./NominatedMovie.scss";
-import Axios from "axios";
 
 class NominatedMovie extends Component {
-  handleHover = () => {
-    Axios.get(
-      "http://www.omdbapi.com/?apikey=2e171a45&s=&t=" +
-        this.props.nomination.Title
-    ).then((res) => {
-      return <div>{res.data}</div>;
-    });
-  };
   render() {
     return (
       <section className="nominated">

@@ -15,7 +15,7 @@ const Story = () => {
         <div clasname="story__blurb">
           <p>
             The Shopify Awards, popularly known as the Shopies, are awards for
-            artistic and technical merit in the Devloper world. Given annually
+            artistic and technical merit in the Developer world. Given annually
             by the Shopify, the awards are in recognition of excellence in
             cinematic achievements, as assessed by the Shopify's voting
             membership. The various category winners are awarded a copy of a

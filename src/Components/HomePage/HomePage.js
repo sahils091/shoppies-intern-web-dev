@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import './home-page.scss'
+import "./home-page.scss";
 import Header from "../Header/Header";
 import Input from "../Input/Input";
 import MovieResults from "../MovieResults/MovieResults";
@@ -22,7 +22,7 @@ class HomePage extends Component {
     const keyWord = e.target.search.value;
 
     axios
-      .get(" https://www.omdbapi.com/?apikey=2e171a45&s=" + keyWord)
+      .get(` https://www.omdbapi.com/?apikey=2e171a45&s=${keyWord}`)
       .then((res) => {
         const movieData = res.data.Search;
         this.setState({
@@ -32,14 +32,12 @@ class HomePage extends Component {
   };
   clickHandler = (e, movieTitle) => {
     e.preventDefault();
-    console.log(movieTitle);
     if (!this.state.movies) return;
     nominatedArr.push(
       this.state.movies.find((movie) => {
         return movie.Title === movieTitle;
       })
     );
-    console.log(nominatedArr);
     this.setState({
       nomMov: nominatedArr,
     });
@@ -60,7 +58,6 @@ class HomePage extends Component {
       }),
       1
     );
-    console.log("after Splice", nominatedArr);
     this.setState({
       nomMov: nominatedArr,
     });
