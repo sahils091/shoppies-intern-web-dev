@@ -22,7 +22,7 @@ class HomePage extends Component {
     const keyWord = e.target.search.value;
 
     axios
-      .get(" http://www.omdbapi.com/?apikey=2e171a45&s=" + keyWord)
+      .get(" https://www.omdbapi.com/?apikey=2e171a45&s=" + keyWord)
       .then((res) => {
         const movieData = res.data.Search;
         this.setState({
